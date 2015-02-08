@@ -1,0 +1,254 @@
+\documentclass[margin,line,pifont,palatino,courier]{res}
+
+\usepackage{pifont}
+\usepackage[latin1] { inputenc}
+\usepackage{hyperref,verbatim}
+\usepackage{amsfonts,amsmath}
+%\topmargin .5in 
+%\oddsidemargin -.5in
+%\evensidemargin -.5in
+%\textwidth=6.0in
+ \textheight=9.0in  
+%\itemsep=0in
+%\parsep=0in
+\usepackage{fancyhdr}
+%\topmargin=0in
+%\textheight=8.5in
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhf{}
+%\cfoot{\thepage}
+%\lfoot{\textit{\footnotesize Research Statement}}
+\rfoot{{\footnotesize Curriculum Vitae, Md. Shaifur Rahman, \thepage}}
+
+  
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+
+\begin{document}
+
+\name{Md. Shaifur Rahman \vspace*{.1in}}
+
+\begin{resume}
+
+\section{\sc Contact Information}
+
+\vspace{.05in} 
+\begin{tabular}{@{}p{3.1in}p{2.3in}}
+PhD Student, Department of Computer Science\\
+Stony Brook University, NY 11794-4400. \\
+Cellphone: 631-949-6815 \\
+Email:
+\href{mailto:mdsrahman@cs.stonybrook.edu}{mdsrahman@cs.stonybrook.edu}\\
+URL: 
+\href{http://shaifur.com}{http://shaifur.com}\\
+\end{tabular}
+ 
+\section{\sc Research Interests}
+Wireless Sensor Network, Systems \& Networking, Artificial Intelligence,
+Computational Biology
+
+\section{\sc Education}
+\textbf{PhD in Computer Science (2013 to present)} \\
+\href{http://www.cs.sunysb.edu/}{Stony Brook University, NY}.  \\
+CGPA: 3.54/4.00  
+\\ \\
+\textbf{M.Sc. in Computer Science \& Engineering, 2013} \\
+\href{http://www.buet.ac.bd/cse/}{Bangladesh University of Engineering \&
+Technology}
+\\
+CGPA: 3.75/4.00  
+\\ \\
+\textbf{B.Sc. in Computer Science \& Engineering, 2009} \\
+\href{http://www.buet.ac.bd/cse/}{Bangladesh University of Engineering \&
+Technology} \\
+CGPA: 3.92/4.00\\
+Position: Ranked 4th in a class of 127 students
+
+\section{\sc Honors and Awards}
+\textbullet{} Special fellowship of CS department, Stony Brook
+University, 2013.
+\\
+\textbullet{ } Dean's List Award for academic excellence in all levels of
+B.Sc.
+\\
+\textbullet{ } University Merit Scholarship for academic excellence in all
+levels of B.Sc. \\
+
+\section{\sc Research Experience}
+1. \textbf{Path Planning Algorithm for Mobile Data Collector in Wireless
+Sensor Network}\\ {[}2011 to 2013{]} 
+Worked with
+\href{http://www.buet.ac.bd/cse/faculty/facdetail.php?id=mahmudanaznin}{Dr.
+Mahmuda Naznin} and
+\href{http://www.buet.ac.bd/cse/faculty/facdetail.php?id=yusufsarwar}{Dr. Yusuf Sarwar Uddin} to minimize the tour-length of a mobile data collector that ferries data from sensor nodes to a sink in a network. Our algorithm takes as input a $TSP$-tour, generates a \textit{Label-covering} tour and contracts the path by linear-shortcutting
+method up to a point where one or more points in the tour that are called critical point, can
+never be skipped. The complexity of the algorithm except the computation of the $TSP$ tour is
+$O(n^3)$ where $n$ is the number of nodes covered by the data collector. The resulting tour
+reduces path length, improves
+data delivery latency and increases network lifetime. An extensive simulation in Castalia framework
+of OMNET++ simulator validates our claim. We also tweaked the MAC layer protocol for communication
+between the mobile element and static sensor node to save energy.\\ \\
+2. \textbf{Application of Ant Colony Optimization in Energy-efficient Dynamic Source Routing in 
+WSN}\\ 
+{[}2008 -- 2009{]} Worked with Dr. Mahmuda Naznin to test performance of different $ACO$ algorithms
+to create on-demand routing paths in WSN for energy-efficient source routing. Simulation result in
+$NS$-$2$ showed that overloading the computation with a lot of system parameters does not render
+much gain in network lifetime.
+Instead, the naive $ACO$ algorithm with few simple parameters to reduce the number 
+of cross-road nodes in the routing paths outperforms all other versions in increasing network
+lifetime.
+\section{\sc Publications}
+1. Md. Shaifur Rahman and Mahmuda Naznin, ``Shortening the Tour-length of a Mobile Data Collector
+  in the WSN by the Method of Linear Shortcut''. In Proceedings of the
+  \textit{$15^{th}$ Asia-Pacific Web Conference (APWEB'13)}, 2013, Sydney,
+  Australia (\textit{LNCS, Springer})
+\section{\sc Graduate Level Courseworks in Stony Brook University}
+\begin{tabular}{@{}p{2.3in}p{3in}}
+\begin{list1}
+\item Artificial Intelligence
+\item Analysis of Algorithms 
+\item Computational Biology
+\end{list1}
+\end{tabular}
+
+\section{\sc Graduate Level Courseworks in M.Sc.}
+\begin{tabular}{@{}p{2.3in}p{3in}}
+\begin{list1}
+\item VLSI Layout Algorithms
+\item Advanced Database Systems 
+\item Bioinformatics Algorithms 
+\end{list1}
+&
+\begin{list1}
+\item Wireless Resource Management 
+\item Wireless Ad Hoc Networks 
+\item Neural Networks 
+\end{list1}
+\end{tabular}
+
+%\section{\sc Publication}
+%{[}Under Review{]}\\
+%\textbullet{ }Md. Shaifur Rahman and Mahmuda Naznin, \textit{Path Contraction of Mobile Data
+%Collectors by the Method of Linear Shortcutting}, ACM Transaction on Sensor Networks.
+
+\section{\sc Professional Experience}
+\begin{tabular}{@{}{l}{r}}
+\textbf{Department of Computer Science \& Engineering, }\\
+\textbf{Bangladesh University of Engineering \& Technology} \\
+Assistant Professor (On Leave, \textit{June, 2013
+to Present})\\
+Lecturer (\textit{June 2009 to May 2013})
+\end{tabular}
+\section{\sc Teaching Experience}
+\textbf{ Teaching Assistant in Stony Brook University: } CSE308: Software
+Development (Fall-2013) and CSE215: Foundations of Computer Science
+(Spring-2014)\\
+ \textbf{Theory Courses Instructed:
+}VLSI Design, Artificial Intelligence, Theory of Computation\\
+\textbf{Lab Courses Instructed: }Technical Writing \& Presentation, Artificial Intelligence,
+Operating Systems, VLSI Design, Database, Microprocessor, Digital Logic Design, Pattern Recognition etc.\\
+\section{\sc Training \& Workshop}
+\textbullet{ }Cisco CCNA Instructor's Program for Module 1, 2, 3 \& 4 conducted by the Cisco
+Networking Academy in BUET.\\
+\textbullet{ }Teacher's Appreciation Program conducted by Directorate of Advisory, Extension \&
+Research Services, BUET.
+
+\section{\sc Organizing Experience}
+\textbullet{ }Member of Organizing Committee, Workshop on Algorithms \& Computation-
+\href{http://www.buet.ac.bd/cse/walcom2010/}{WALCOM-2010}
+\&
+\href{http://www.buet.ac.bd/cse/walcom2012}{WALCOM-2012}\\
+\textbullet{ }Trainer \& Organizer of Automated SQL Learning \& Evaluation workshop 2012, sponsored
+by Ministry of Education, Bangladesh\\
+\textbullet{ }Trainer of short-courses in \href{http://www.buet.ac.bd/cse/iac}{Bangladesh-Korea
+Information Access Center}, BUET\\
+\textbullet{ }Trainer of Advanced Networking Training Program(Cisco ICND-1 \& ICND-2) for employees
+of IT department, Bangladesh Central Bank
+
+\section{\sc Projects Completed in Graduate \\ Classes}
+\textbf{Pre-Overlapper}\\
+We implemented a pre-processing step for the
+\href{http://schatzlab.cshl.edu/teaching/2012/pacbioasm.shtml}{De Novo
+genome assembly of PacBio/ Nanopore short-reads of Bacteria} as part of
+the project work done in CSE549 (Computational Biology) course.
+
+\section{\sc Projects Completed in Undergraduate Classes}
+\textbf{3D Golf Game in OpenGL \& C++}\\
+As part of the project assigned in the Graphics Lab, we implemented 3D Golf Game with picturesque
+terrain of grass, pond, mud etc. and projectile physics and collision detection for game score.\\
+\textbf{Cellphone-based Voice-controlled Operation of Home Appliances}\\
+We captured the voice
+from cellphone and analyzed it using Microsoft's relevant MSDN library. Using ATmega32 
+micro-controller, different home appliances
+like light-bulb, fan, heater etc was turned on/off and their intensity of operation was
+controlled.\\
+\begin{comment}
+\textbf{Inventory Management System of Onik Ltd.}\\
+We studied the system of cellphone selling company, developed extensive UML and prototype based on
+it, validated the design and completed the development of the system using ASP,NET, Oracle and
+Crystal Report.\\
+\end{comment}
+\textbf{4-bit Microprocessor}\\
+A simple microprocessor that was simulated in Circuit-maker and later implemented in hardware. The
+feature included execution of $28$ instructions of $80 \times 86$ processor family, memory
+protection, multiprogramming etc.\\
+\textbf{NACHOS Virtual OS Implementation}\\
+As part of the task in the operating system lab, we implemented Multiprogramming,
+Process Management, Console, and elementary system calls of virtual operating system NACHOS.\\
+\textbf{C Compiler}\\
+We implemented a complete compiler for $C$ program using $Lex$ and $Yacc$ as part of the task in
+compiler lab.\\
+%\newpage
+\section{\sc Skills}
+\textbf{Programming Language}\\
+C/C++, Java, Prolog, Python\\
+\textbf{Web Development}\\
+DHTML, PHP, JSP\\
+\textbf{Database}\\ 
+Oracle, MySQL\\
+\textbf{Other Tools}\\
+OpenGL, PSPICE, Microwind, Verilog HDL\\
+\textbf{Technical Writing \& Simulation Tools}\\
+\LaTeX{}, GNUPlot, MatLab, Network Simulator 2 \& 3, OMNET++, OPNET
+\section{\sc Co-curricular Activities}
+\textbf{Debating: }Participated in Model United Nations Debate - 2002, National Debate Championship
+- 2000, 2001 \& 2002\\
+\textbf{AIDS Awareness Campaign: }Participated in Countrywide AIDS Awareness Campaign for Youths
+2002--2004, sponsored by UNICEF.
+\section{\sc References}
+\textbf{Dr. Mahmuda Naznin}\\
+Associate Professor\\
+Department of Computer Science \& Engineering \\
+Bangladesh University of Engineering \& Technology. \\
+Email: \href{mailto:mahmudanaznin@cse.buet.ac.bd}{mahmudanaznin@cse.buet.ac.bd}\\ 
+Web-page: \href{http://teacher.buet.ac.bd/mahmudanaznin}{http://teacher.buet.ac.bd/mahmudanaznin}
+\\
+\\
+\textbf{Dr. Saidur Rahman}\\
+Professor\\
+Department of Computer Science \& Engineering \\
+Bangladesh University of Engineering \& Technology. \\
+Email: \href{mailto:saidurrahman@cse.buet.ac.bd}{saidurrahman@cse.buet.ac.bd}\\ 
+Web-page: \href{http://teacher.buet.ac.bd/saidurrahman}{http://teacher.buet.ac.bd/saidurrahman}
+\\
+\\
+\textbf{Dr. I.V. Ramakrishnan}\\
+Professor \& Graduate Program Director\\
+Department of Computer Science\\
+Stony Brook University, NY-11794-4400 \\
+Email: \href{mailto:ram@cs.sunysb.edu}{ram@cs.sunysb.edu}\\ 
+Web-page:
+\href{http://www.cs.sunysb.edu/~ram/}{http://www.cs.sunysb.edu/$\sim$ram/}
+\end{resume}
+\end{document}

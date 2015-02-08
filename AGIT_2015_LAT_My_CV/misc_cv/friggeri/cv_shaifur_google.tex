@@ -1,0 +1,249 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.0 (5/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square
+% bracket to remove colors from this template for printing
+\usepackage{amssymb}
+\addbibresource{bibliography.bib} % Specify the bibliography file to include
+% publications
+\begin{document}      
+\header{Md Shaifur}{ Rahman}{PhD student, Department of Computer Science, Stony
+Brook University, NY}
+%{R\'{e}sum\'{e} for Internship in Summer 2015} %
+% Your name and current job title/field
+    
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+         
+\begin{aside} % In the aside, each new line forces a line break
+\section{Contact}
+1147 N. Country Rd.
+Stony Brook, NY-11790
+USA 
+~
++1 (631) 949 6815
+~
+\href{mailto:mdsrahman@cs.stonybrook.edu}{mdsrahman@\\cs.stonybrook.edu}
+~
+\href{http://shaifur.com}{http://shaifur.com}
+~
+\section{Languages}
+English (Fluent)
+Bengali (Native)
+~
+\section{Expertise}
+Software Engineering,
+Wireless and Cellular Networks
+\end{aside}
+
+\section{Objective} 
+Summer internship position in computer programming and/or research projects
+%----------------------------------------------------------------------------------------
+%	Experience
+%----------------------------------------------------------------------------------------
+\section{Experience}
+\begin{entrylist}  
+\entry
+{June, 2014 \\to present}   
+{Research Assistant}
+{WINGS Lab, Dept. of CS, Stony Brook University}
+{Researching the cost-effective switchable wireless back-hauls in cellular network}
+\entry
+{2013 -- 2014}
+{Teaching Assistant}
+{Dept. of CS, Stony Brook University}
+{
+  Held weekly recitation classes, graded exam scripts, held weekly office hours
+  to supervise student projects\\ 
+  Courses Instructed:
+  	\begin{itemize}
+  	  \item Software Engineering
+  	  \item Foundation of Computer Science
+  	 \end{itemize} 
+}
+\entry{2013}
+{Assistant Professor}
+{Bangladesh University of Engineering \& Technology}
+{Courses Instructed:
+	\begin{itemize}
+	  \item Structured Programming Language
+	  \item Theory of Computation
+	\end{itemize}
+}
+\entry{2009 -- 2013}
+{Lecturer}
+{Bangladesh University of Engineering \& Technology}
+{Courses Instructed:
+	\begin{itemize}
+	  \item Artificial Intelligence
+	  \item VLSI Design
+	  \item Technical Writing \& Presentation
+	  \item Labs: Computer Networks, Operating Systems, Database, Object-Oriented
+	  Programming
+	\end{itemize}
+}
+\end{entrylist}
+%------------------------------------------------------------------------------
+%			Education
+%------------------------------------------------------------------------------
+\section{Education}
+\begin{entrylist} 
+%------------------------------------------------
+\entry
+{2013 -- 2018}
+{PhD in Computer Science}
+{Stony Brook University}
+{CGPA: 3.65/4.00\\  Research Area: Wireless and Cellular Networks}
+%------------------------------------------------
+\entry
+{2009 -- 2012}
+{M.Sc. in  Computer Science}
+{Bangladesh University of Engineering \& Technology}
+{CGPA: 3.75/4.00\\ 
+Thesis Title: Path-planning Algorithm for Mobile Data Collector in Wireless
+Sensor Network}
+%------------------------------------------------
+\entry  
+{2004 -- 2009}
+{B.Sc. in  Computer Science}
+{Bangladesh University of Engineering \& Technology}
+{CGPA: 3.92/4.00\\ 
+Thesis Title: Application of Ant Colony Optimization in Energy-efficient Dynamic
+Source Routing in WSN}
+\end{entrylist}
+%--------------------------------------------------------------------------------
+%			Publication
+%--------------------------------------------------------------------------------
+\section{Publication}
+1. Md. Shaifur Rahman and Mahmuda Naznin, ``Shortening the Tour-length of a Mobile Data Collector
+  in the WSN by the Method of Linear Shortcut''. In Proceedings of the
+  \textit{$15^{th}$ Asia-Pacific Web Conference (APWEB'13)}, 2013, Sydney,
+  Australia (\textit{LNCS, Springer})
+\section{Current Research Project}
+Use of Free Space Optics (FSO) as an alternative to or an extension of wired or
+wireless backhauls connecting small-area femto-cells of cellular network- is a
+promising area of research. It can add flexibility by dynamic connections and 
+cut down deployment cost by bypassing over-provisioning and reducing
+maintenance, yet it can provide high-bandwidth up to 10 Gbps per FSO-link.
+A fully functional prototype of a galvomotor-mounted FSO backhaul-link has
+ already been tested
+indoor. However, outdoor deployment requires overcoming challenges such as
+line-of-sight problem, environmental hazards etc. We are currently
+researching a fully functional  FSO backhaul link for deployment in the cellular
+network in the outdoor environment.\\ \\
+\textbf{Supervisors:} \\
+\bullet{ } Samir R. Das, Professor, Dept. of CS, Stony Brook University\\
+\bullet{ } Himanshu Gupta, Associate Professor, Dept. of CS, Stony Brook
+University
+
+% ----------------------------------------------------------------------------------------
+%	Graduate Level Coursework
+%----------------------------------------------------------------------------------------
+\section{Graduate-level Courses}
+\begin{entrylist}
+\entry{2013 --  2014}{PhD-level Courses}{Stony Brook University}{
+Asynchronous Systems, Artificial Intelligence, Analysis of Algorithms,
+Computational Biology, Discrete Math, Fundamentals of Computer Networks, 
+Theory of Database Systems, Wireless \& Mobile Networks}
+\entry{2009 --  2011}{M.Sc.-level Courses}{Bangladesh University of Engineering \& Technology}{
+VLSI Layout Algorithms, Neural Networks, Bioinformatics Algorithms,  Advanced
+Database Systems, Wireless Resource Management, Wireless Ad Hoc Networks}
+\end{entrylist}
+\section{Graduate-level Projects} 
+\begin{enumerate}
+  \item Efficient Pre-overlapper: a pre-processing step for the De Novo
+  genome assembly of PacBio/ Nanopore short-reads of Bacteria  
+  \textit{as part of the Computational Biology course}
+  \item Effect of Cache-size and Pending Interest Table (PIT) aggregation in
+  Named Data Network (NDN) \textit{as part of the Fundamentals of Computer
+  Networks course} 
+  \item Implementation of Chain Replication in Fault-tolerant Server Systems
+  \textit{as part of Asynchronous Systems course}
+  \item Spatial Analysis of WiFi Data \textit{as part of the Wireless \& Mobile
+  Networks course}
+\end{enumerate}
+\section{Undergraduate-level Projects}
+	\begin{enumerate}
+	\item \textit{4-bit Microprocessor}: A microporcesor circuit based on 8086
+	family with features such as 28 instructions, memory protection,
+	multiprogramming etc. 
+	\item \textit{NACHOS Virtual OS}: Multiprogramming,
+	process management, console and elementary system calls implemented in
+	bare-bone virtual operating system NACHOS.
+	\item \textit{C Compiler}: Complete compiler for C programs using Lex and
+	Yacc parser tools
+	\end{enumerate}  
+\section{Training, Consultancy \& Organizing Skills}
+	\bullet{ } Certified Trainer for Cisco CCNA Instructor\textquotesingle{}s
+	Program for Module 1, 2, 3 \& 4 conducted by the Cisco Networking Academy, BUET
+	\\ \bullet{ }  Trainer for Advanced Networking Training Program (Cisco ICND-1
+	\& ICND-2) for employees of IT department, Bangladesh Central Bank.
+	\\ \bullet{ } Member of the Organizing Committee, Workshop on Algorithms \&
+	Computation- WALCOM- 2010 \& WALCOM-2012 
+\section{Programming Skills}
+	\bullet{ }\textbf{Programming Languages: } C/C++, Java, Python, Prolog,
+	Assembly x86 \\ 
+	\bullet{ }\textbf{Database Skill: }Oracle, MySQL, JDBC, XML \\
+	\bullet{ }\textbf{Web-development Tools: }HTML, PHP, JSP, JQuery\\
+	\bullet{ }\textbf{Simulation \& Other Tools: }NS-2, NS-3, Wireshark, OMNET++,
+	Matlab, PSPICE, Microwind, Verilog\\
+	\bullet{ }\textbf{OS-related Skill: }Linux, Shell scripting, Linux Kernel
+	Programming \\
+	 \bullet{ }\textbf{Technical Writing Tools: }\LaTeX{ },
+	GnuPlot
+\section{Personal Information}
+	\bullet{ } {Date of Birth: } September 17, 1986 \\
+	\bullet{ } {Gender: } Male \\
+	\bullet{ } {Citizenship: } Bangladesh \\
+	\bullet{ } {US VISA Status: } F-1 (2013 -- 2018) \\
+	\bullet{ } {Availability: } May, 2015 -- September, 2015
+\section{Awards}
+ \bullet{ }Special fellowship of CS department, Stony Brook University, 2013 \\
+ \bullet{ }Dean\textquotesingle{}s List Award for academic excellence in all levels of B.Sc \\
+ \bullet{ } University Merit Scholarship for academic excellence in all levels
+ 			of B.Sc.
+\section{Co-curricular Activities}
+	\bullet{ } Debating: Participated in Model United Nations Debate - 2002, National Debate
+		Championship - 2000, 2001 \& 2002 \\
+	\bullet{ }AIDS Awareness Campaign: Participated in Countrywide AIDS Awareness 
+		Campaign for Youths 2002 -- 2004, sponsored by UNICEF.
+		\\
+\section{Reference}
+	  \textbf{Himanshu Gupta}\\
+	  Assoicate Professor\\
+	  Dept. of Computer Science\\
+	  Stony Brook University, NY-11794-4400\\
+	  Email: \href{hgupta@cs.sunysb.edu}{hgupta@cs.sunysb.edu} \\ \\ 
+	  \textbf{Samir R. Das}\\
+	  Professor\\
+	  Dept. of Computer Science\\
+	  Stony Brook University, NY-11794-4400\\
+	  Email: \href{samir@cs.stonybrook.edu}{samir@cs.stonybrook.edu} \\ \\
+	  \textbf{I.V. Ramakrishnan}\\
+	  Professor \& Graduate Program Director\\
+	  Department of Computer Science\\
+	  Stony Brook University, NY-11794-4400 \\
+	  Email: \href{mailto:ram@cs.sunysb.edu}{ram@cs.sunysb.edu}
+\end{document}  
+
+
+
