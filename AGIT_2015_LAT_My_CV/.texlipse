@@ -1,14 +1,14 @@
 #TeXlipse project settings
-#Sat Feb 07 19:39:17 EST 2015
+#Thu Feb 12 03:19:30 EST 2015
 markTmpDer=true
-builderNum=2
+builderNum=8
 outputDir=
 makeIndSty=
 bibrefDir=
 outputFormat=pdf
 tempDir=tmp
-mainTexFile=document.tex
-outputFile=document.pdf
+mainTexFile=cv_4.tex
+outputFile=cv_4.pdf
 langSpell=en
 markDer=true
-srcDir=
+srcDir=amazon_cv/
