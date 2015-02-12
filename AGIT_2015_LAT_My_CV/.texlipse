@@ -1,5 +1,5 @@
 #TeXlipse project settings
-#Thu Feb 12 03:19:30 EST 2015
+#Thu Feb 12 18:34:06 EST 2015
 markTmpDer=true
 builderNum=8
 outputDir=
@@ -7,8 +7,8 @@ makeIndSty=
 bibrefDir=
 outputFormat=pdf
 tempDir=tmp
-mainTexFile=cv_4.tex
-outputFile=cv_4.pdf
+mainTexFile=generic_cover_letter.tex
+outputFile=generic_cover_letter.pdf
 langSpell=en
 markDer=true
-srcDir=amazon_cv/
+srcDir=
